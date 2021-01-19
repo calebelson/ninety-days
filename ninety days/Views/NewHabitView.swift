@@ -14,7 +14,6 @@ struct NewHabitView: View {
     @State private var habitName: String = ""
     @Binding var showNewHabit: Bool
     
-    
     var body: some View {
         NavigationView {
             VStack {
@@ -32,14 +31,12 @@ struct NewHabitView: View {
                 })
                 .disabled(habitName.count == 0)
             }
-            
             .navigationBarItems(leading: Button(action: {
                 showNewHabit = false
             }, label: {
                 Text("Cancel")
             }))
         }
-
     }
 }
 

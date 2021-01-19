@@ -28,7 +28,6 @@ struct TrendView: View {
                                     .fill(random.0)
                                     .frame(width: 20, height: random.1)
                                 
-                                
                                 Text("6/\(i)")
                                     .font(.subheadline)
                                     .multilineTextAlignment(.center)

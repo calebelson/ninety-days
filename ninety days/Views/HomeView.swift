@@ -14,63 +14,62 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-                List {
-                    Section(header: Text("TestHabit1")) {
-                        VStack {
-                            Text("\(Int.random(in: 1...90)) Days Left")
-                                .font(.title)
-                                .padding(.all)
+            List {
+                Section(header: Text("TestHabit1")) {
+                    VStack {
+                        Text("\(Int.random(in: 1...90)) Days Left")
+                            .font(.title)
+                            .padding(.all)
+                        Divider()
+                        ProgressView()
+                            .padding(.bottom)
+                        Divider()
+                        TrendView()
+                            .padding(.all)
+                        
+                        // TODO: Calculate whether today is missing from goal's data
+                        if (Int.random(in: 1...1) == 1) {
                             Divider()
-                            ProgressView()
-                                .padding(.bottom)
-                            Divider()
-                            TrendView()
-                                .padding(.all)
-                            
-                            // TODO: Calculate whether today is missing from goal's data
-                            if (Int.random(in: 1...1) == 1) {
-                                Divider()
-                                Button(action: {
-                                    addToday.toggle()
-                                }, label: {
-                                    Text("Add Today")
-                                        .foregroundColor(.blue)
-                                }).sheet(isPresented: $addToday) {
-                                    // TODO: Add tracking for individual goals
-                                    AddTodayView(addToday: $addToday)
-                                }
-                            }
-                            
-                        }
-                        .buttonStyle(BorderlessButtonStyle())
-                    }
-                    
-                    
-                    Section(header: Text("TestHabit2")) {
-                        VStack {
-                            Text("\(Int.random(in: 1...90)) Days Left")
-                                .font(.title)
-                                .padding(.all)
-                            Divider()
-                            ProgressView()
-                                .padding(.bottom)
-                            Divider()
-                            TrendView()
-                                .padding(.all)
-                            if (Int.random(in: 1...1) == 1) {
-                                Divider()
-                                Button(action: {
-                                    addToday.toggle()
-                                }, label: {
-                                    Text("Add Today")
-                                        .foregroundColor(.blue)
-                                }).sheet(isPresented: $addToday) {
-                                    AddTodayView(addToday: $addToday)
-                                }
+                            Button(action: {
+                                addToday.toggle()
+                            }, label: {
+                                Text("Add Today")
+                                    .foregroundColor(.blue)
+                            }).sheet(isPresented: $addToday) {
+                                // TODO: Add tracking for individual goals
+                                AddTodayView(addToday: $addToday)
                             }
                         }
-                        .buttonStyle(BorderlessButtonStyle())
+                        
                     }
+                    .buttonStyle(BorderlessButtonStyle())
+                }
+                
+                Section(header: Text("TestHabit2")) {
+                    VStack {
+                        Text("\(Int.random(in: 1...90)) Days Left")
+                            .font(.title)
+                            .padding(.all)
+                        Divider()
+                        ProgressView()
+                            .padding(.bottom)
+                        Divider()
+                        TrendView()
+                            .padding(.all)
+                        if (Int.random(in: 1...1) == 1) {
+                            Divider()
+                            Button(action: {
+                                addToday.toggle()
+                            }, label: {
+                                Text("Add Today")
+                                    .foregroundColor(.blue)
+                            }).sheet(isPresented: $addToday) {
+                                AddTodayView(addToday: $addToday)
+                            }
+                        }
+                    }
+                    .buttonStyle(BorderlessButtonStyle())
+                }
             }
             .navigationViewStyle(StackNavigationViewStyle())
             .navigationTitle("Habits")
@@ -94,7 +93,6 @@ struct HomeView: View {
                                     }
             )
         }
-        
     }
 }
 

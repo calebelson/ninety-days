@@ -16,7 +16,6 @@ struct ProgressView: View {
     @State var refresh = false
     @State var filledCircleColor = Color.clear
     @State var emptyCircleColor = Color.clear
-
     
     var body: some View {
         VStack {
@@ -47,9 +46,7 @@ struct ProgressView: View {
                                         self.filledCircleColor = Color.red
                                     }
                                 }
-
                         }
-                        
                     }
                     .frame(width: 20, height: 20)
                     .padding(.all, -3)
