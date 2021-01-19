@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91FE3F024AC048F00DE9B23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FE3EF24AC048F00DE9B23 /* HomeView.swift */; };
+		C91FE3F224AC1F1600DE9B23 /* TrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FE3F124AC1F1600DE9B23 /* TrendView.swift */; };
+		C9312FEF24B037EA0064526E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9312FEE24B037EA0064526E /* CloudKit.framework */; };
 		C93B59CE24AAE59B00152F5B /* ninety_daysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B59CD24AAE59B00152F5B /* ninety_daysApp.swift */; };
-		C93B59D024AAE59B00152F5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B59CF24AAE59B00152F5B /* ContentView.swift */; };
+		C93B59D024AAE59B00152F5B /* AddTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B59CF24AAE59B00152F5B /* AddTodayView.swift */; };
 		C93B59D224AAE59C00152F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93B59D124AAE59C00152F5B /* Assets.xcassets */; };
 		C93B59D524AAE59C00152F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93B59D424AAE59C00152F5B /* Preview Assets.xcassets */; };
 		C93B59E024AAE59D00152F5B /* ninety_daysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B59DF24AAE59D00152F5B /* ninety_daysTests.swift */; };
 		C93B59EB24AAE59D00152F5B /* ninety_daysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B59EA24AAE59D00152F5B /* ninety_daysUITests.swift */; };
+		C97B07B224AD307400E74AA9 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B07B124AD307400E74AA9 /* ProgressView.swift */; };
+		C97F8B9024AE6AF70057A979 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F8B8F24AE6AF70057A979 /* SettingsView.swift */; };
+		C97F8B9224AE708A0057A979 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F8B9124AE708A0057A979 /* NewHabitView.swift */; };
+		C9B62E6825B54DB000718F4F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B62E6725B54DB000718F4F /* AboutView.swift */; };
+		C9D1CB7724B43CCB00A9DDD0 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1CB7624B43CCB00A9DDD0 /* Ring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91FE3EF24AC048F00DE9B23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C91FE3F124AC1F1600DE9B23 /* TrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendView.swift; sourceTree = "<group>"; };
+		C9312FEE24B037EA0064526E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C93B59CA24AAE59B00152F5B /* ninety days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ninety days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93B59CD24AAE59B00152F5B /* ninety_daysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninety_daysApp.swift; sourceTree = "<group>"; };
-		C93B59CF24AAE59B00152F5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C93B59CF24AAE59B00152F5B /* AddTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodayView.swift; sourceTree = "<group>"; };
 		C93B59D124AAE59C00152F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93B59D424AAE59C00152F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C93B59D624AAE59C00152F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +56,12 @@
 		C93B59E624AAE59D00152F5B /* ninety daysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ninety daysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93B59EA24AAE59D00152F5B /* ninety_daysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninety_daysUITests.swift; sourceTree = "<group>"; };
 		C93B59EC24AAE59D00152F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97B07B124AD307400E74AA9 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		C97F8B8F24AE6AF70057A979 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C97F8B9124AE708A0057A979 /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
+		C98E807524AE99F10097CE08 /* ninety days.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ninety days.entitlements"; sourceTree = "<group>"; };
+		C9B62E6725B54DB000718F4F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C9D1CB7624B43CCB00A9DDD0 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9312FEF24B037EA0064526E /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9312FED24B037EA0064526E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9312FEE24B037EA0064526E /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C93B59C124AAE59B00152F5B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +105,7 @@
 				C93B59DE24AAE59D00152F5B /* ninety daysTests */,
 				C93B59E924AAE59D00152F5B /* ninety daysUITests */,
 				C93B59CB24AAE59B00152F5B /* Products */,
+				C9312FED24B037EA0064526E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				C93B59CD24AAE59B00152F5B /* ninety_daysApp.swift */,
-				C93B59CF24AAE59B00152F5B /* ContentView.swift */,
+				C984494D24BD571A00D41624 /* Views */,
+				C984494C24BD56DF00D41624 /* Helpers */,
 				C93B59D124AAE59C00152F5B /* Assets.xcassets */,
+				C98E807524AE99F10097CE08 /* ninety days.entitlements */,
 				C93B59D624AAE59C00152F5B /* Info.plist */,
 				C93B59D324AAE59C00152F5B /* Preview Content */,
 			);
@@ -128,6 +157,28 @@
 				C93B59EC24AAE59D00152F5B /* Info.plist */,
 			);
 			path = "ninety daysUITests";
+			sourceTree = "<group>";
+		};
+		C984494C24BD56DF00D41624 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1CB7624B43CCB00A9DDD0 /* Ring.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C984494D24BD571A00D41624 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C91FE3EF24AC048F00DE9B23 /* HomeView.swift */,
+				C97B07B124AD307400E74AA9 /* ProgressView.swift */,
+				C91FE3F124AC1F1600DE9B23 /* TrendView.swift */,
+				C97F8B9124AE708A0057A979 /* NewHabitView.swift */,
+				C93B59CF24AAE59B00152F5B /* AddTodayView.swift */,
+				C97F8B8F24AE6AF70057A979 /* SettingsView.swift */,
+				C9B62E6725B54DB000718F4F /* AboutView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93B59D024AAE59B00152F5B /* ContentView.swift in Sources */,
+				C91FE3F024AC048F00DE9B23 /* HomeView.swift in Sources */,
+				C93B59D024AAE59B00152F5B /* AddTodayView.swift in Sources */,
+				C97B07B224AD307400E74AA9 /* ProgressView.swift in Sources */,
+				C97F8B9224AE708A0057A979 /* NewHabitView.swift in Sources */,
+				C9B62E6825B54DB000718F4F /* AboutView.swift in Sources */,
+				C97F8B9024AE6AF70057A979 /* SettingsView.swift in Sources */,
+				C91FE3F224AC1F1600DE9B23 /* TrendView.swift in Sources */,
+				C9D1CB7724B43CCB00A9DDD0 /* Ring.swift in Sources */,
 				C93B59CE24AAE59B00152F5B /* ninety_daysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ninety days/ninety days.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ninety days/Preview Content\"";
 				DEVELOPMENT_TEAM = 877B3XVSF5;
@@ -439,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ninety days/ninety days.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ninety days/Preview Content\"";
 				DEVELOPMENT_TEAM = 877B3XVSF5;
